@@ -1,11 +1,9 @@
-# C# 7.1
-
 using System;
+
 class ssm {
   static void Main() {
       int ssm_student = 32;
-      
-string statement = ssm_student>20 ? "Great" : "Need more students";
-Console.WriteLine(statement);
+      string statement = ssm_student>20 ? "Great" : "Need more students";
+      Console.WriteLine(statement);
   }
 }
