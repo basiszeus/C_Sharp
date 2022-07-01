@@ -1,0 +1,18 @@
+using System;
+
+class ssm {
+  static void Main() {char ssm_walid_grade = 'A';
+  
+  switch(ssm_walid_grade) {
+      case 'A':
+        Console.WriteLine("Very good");
+        break;
+      case 'B':
+        Console.WriteLine("You tried...");
+        break;
+      default:
+        Console.WriteLine("Idiot, you need to do more !");
+        break;
+  }
+  }
+}
