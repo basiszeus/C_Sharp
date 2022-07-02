@@ -1,0 +1,12 @@
+using System;
+
+public class ssm
+{
+    public static void Main(){
+        int ppl = 0;
+        do {
+            Console.WriteLine("I saw" + ppl);
+            ppl +=1;
+        }while (ppl<=30);
+
+}}
